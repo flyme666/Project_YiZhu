@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".keting_fragment.keting_dianshi">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal"
+        android:background="@drawable/background_linearlayout">
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:background="@drawable/shape_corner"
+            android:orientation="vertical">
+            <!--            <Button-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="+"-->
+            <!--                android:id="@+id/add_vol"-->
+            <!--                android:textSize="40dp">-->
+            <!--            </Button>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/theme"
+                android:textSize="50dp"
+                android:text="+">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/theme"
+                android:textSize="20dp"
+                android:text="VOL">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/theme"
+                android:textSize="50dp"
+                android:text="_">
+            </TextView>
+            <!--            <Button-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="-"-->
+            <!--                android:id="@+id/reduce_vol"-->
+            <!--                android:textSize="40dp">-->
+            <!--            </Button>-->
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/dianshiButton_keting"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/button_circle_notselect"
+            android:scaleType="center"
+            android:src="@drawable/button_off">
+        </ImageButton>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/shape_corner"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/theme"
+                android:textSize="40dp"
+                android:text="︿">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/theme"
+                android:textSize="20dp"
+                android:text="CH">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/theme"
+                android:textSize="40dp"
+                android:text="﹀">
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evan.demo.yizhu.shouye.shouye_huiyi">
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/bg"
+        android:layout_height="276dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitStart"
+        android:layout_weight="1"
+        android:src="@drawable/huiyishi_img"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:src="@drawable/back"
+            android:id="@+id/huiyi_back">
+        </ImageButton>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="730dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="欢迎使用会议室">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="393dp"
+            android:layout_height="730dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape_corner_up"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/huiyishi_saoyisao">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="扫描二维码加入会议"
+                    android:textColor="@color/theme">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="34dp"
+                    android:background="@drawable/button_green_off"
+                    android:drawableTop="@drawable/huiyishi_yuyue"
+                    android:elevation="3dp"
+                    android:paddingTop="20dp"
+                    android:text="预约会议室"
+                    android:id="@+id/huiyishi_yuyue"
+                    android:textColor="@color/theme">
+                </Button>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_green_off"
+                    android:drawableTop="@drawable/huiyishi_wode"
+                    android:elevation="3dp"
+                    android:paddingTop="20dp"
+                    android:text="我的会议"
+                    android:id="@+id/huiyishi_wode"
+                    android:textColor="@color/theme">
+                </Button>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="31dp"
+                    android:background="@drawable/button_green_off"
+                    android:drawableTop="@drawable/huiyishi_chazhao"
+                    android:elevation="3dp"
+                    android:paddingTop="20dp"
+                    android:text="查找会议"
+                    android:id="@+id/huiyishi_chazhao"
+                    android:textColor="@color/theme">
+                </Button>
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_green_off"
+                    android:drawableTop="@drawable/huiyishi_fuwu"
+                    android:elevation="3dp"
+                    android:paddingTop="20dp"
+                    android:text="会议服务"
+                    android:id="@+id/huiyishi1_fuwu"
+                    android:textColor="@color/theme">
+                </Button>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yushi_fragment.yushi_tizhongcheng">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_linearlayout">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tizhong"
+                    android:textSize="80dp"
+                    android:textColor="@color/theme"
+                    android:text="47.6">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KG"
+                    android:id="@+id/kg"
+                    android:textSize="20dp"
+                    android:textColor="@color/theme">
+                </TextView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:text="请站在体重秤上"
+                android:textSize="15dp"
+                android:textColor="@color/theme">
+            </TextView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="260dp"
+            android:text="保存到手机"
+            android:textSize="12dp"
+            android:textColor="@color/gary">
+        </TextView>
+
+    </LinearLayout>
+
+</FrameLayout>

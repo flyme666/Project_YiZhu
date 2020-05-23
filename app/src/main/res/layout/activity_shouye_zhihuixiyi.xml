@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evan.demo.yizhu.shouye.shouye_zhihuixiyi">
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/bg"
+        android:layout_height="276dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitStart"
+        android:layout_weight="1"
+        android:src="@drawable/xingqiu_img"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:src="@drawable/back"
+            android:id="@+id/xiyi_back">
+        </ImageButton>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="730dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="欢迎来到智慧洗衣房">
+        </TextView>
+        <LinearLayout
+            android:layout_width="393dp"
+            android:layout_height="730dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape_corner_up"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/background_linearlayout_gary"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/xiyifang_img2">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text="请您在排队轮到后,在20分钟内开始洗衣,超时则重新排队.">
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/xiyifang_img3"
+                        android:layout_marginTop="5dp">
+                    </ImageView>
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/background_linearlayout_gary1">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="2dp"
+                                android:src="@drawable/xiyifang_img4">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/theme"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="18dp"
+                                android:text="三楼洗衣房">
+                            </TextView>
+                        </LinearLayout>
+                        <View
+                            android:layout_width="280dp"
+                            android:layout_height="5px"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="#AAAAAA">
+                        </View>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:textColor="#000"
+                                android:text="目前三楼洗衣房排队 ">
+                            </TextView>
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="#fff"
+                                android:background="@drawable/background_textview_green"
+                                android:text="  5     ">
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#000"
+                                android:text=" 人">
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:textColor="#000"
+                                android:text="预计等待时间 ">
+                            </TextView>
+                            <TextView
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="#fff"
+                                android:background="@drawable/background_textview_green"
+                                android:text="  54  ">
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#000"
+                                android:text=" 分钟">
+                            </TextView>
+                        </LinearLayout>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button_green_off"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:textColor="@color/theme"
+                            android:id="@+id/xiyifang_paidui1"
+                            android:text="我要排队">
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/xiyifang_img3"
+                        android:layout_marginTop="5dp">
+                    </ImageView>
+                    <LinearLayout
+                        android:layout_width="320dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/background_linearlayout_gary1">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="2dp"
+                                android:src="@drawable/xiyifang_img4">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/theme"
+                                android:layout_marginLeft="5dp"
+                                android:textSize="18dp"
+                                android:text="八楼洗衣房">
+                            </TextView>
+                        </LinearLayout>
+                        <View
+                            android:layout_width="280dp"
+                            android:layout_height="5px"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="#AAAAAA">
+                        </View>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:textColor="#000"
+                                android:text="目前八楼洗衣房排队 ">
+                            </TextView>
+                            <TextView
+                                android:layout_width="20dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="#fff"
+                                android:background="@drawable/background_textview_green"
+                                android:text="  6     ">
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#000"
+                                android:text=" 人">
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:textColor="#000"
+                                android:text="预计等待时间 ">
+                            </TextView>
+                            <TextView
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content"
+                                android:textColor="#fff"
+                                android:background="@drawable/background_textview_green"
+                                android:text="  50  ">
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#000"
+                                android:text=" 分钟">
+                            </TextView>
+                        </LinearLayout>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/button_green_off"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:textColor="@color/theme"
+                            android:id="@+id/xiyifang_paidui2"
+                            android:text="我要排队">
+
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

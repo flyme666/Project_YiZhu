@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_yuding"
+        android:enabled="true"
+        android:icon="@drawable/jiudian"
+        app:showAsAction="ifRoom"
+        android:title="预定" />
+    <item
+        android:id="@+id/menu_xingcheng"
+        android:enabled="true"
+        android:icon="@drawable/shouye"
+        app:showAsAction="ifRoom"
+        android:title="行程" />
+    <item
+        android:id="@+id/menu_shouye"
+        android:title=""
+        android:icon="@drawable/lvyouquan"
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_yaokongqi"
+        android:enabled="true"
+        android:icon="@drawable/yaokongqi"
+        app:showAsAction="ifRoom"
+        android:title="遥控" />
+    <item
+        android:id="@+id/menu_wode"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/wode"
+        android:title="我的" />
+</menu>

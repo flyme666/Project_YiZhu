@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.evan.demo.yizhu">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        tools:replace="android:appComponentFactory
+        <activity android:name=".yuding.yuding_yuyue"></activity>
+        <activity android:name=".yuding.yuding_hotel_more" />
+        <activity android:name=".yuding.yuding_search_more" />
+        <activity android:name=".yuding.yuding_search" />
+        <activity android:name=".wode.wode_renlianrenzheng" />
+        <activity android:name=".wode.wode_shimingrenzheng1" />
+        <activity android:name=".shouye.zhihuixiyi_yijinru" />
+        <activity android:name=".shouye.zhihuixiyi_yilundao" />
+        <activity android:name=".shouye.zhihuixiyi_yipaidui" />
+        <activity android:name=".shouye.huiyishi_yuyue_shezhi_xiangqing" />
+        <activity android:name=".shouye.huiyishi_yuyue_shezhi" />
+        <activity android:name=".shouye.huiyishi_fuwu" />
+        <activity android:name=".shouye.huiyishi_chazhao" />
+        <activity android:name=".shouye.huiyishi_wode" />
+        <activity android:name=".shouye.huiyishi_yuyue" />
+        <activity android:name=".shouye.shouye_fuwu" />
+        <activity android:name=".shouye.shouye_fangke" />
+        <activity android:name=".shouye.shouye_daohang" />
+        <activity android:name=".shouye.shouye_maoyan" />
+        <activity android:name=".shouye.shouye_huiyi" />
+        <activity android:name=".shouye.shouye_jianshen" />
+        <activity android:name=".shouye.shouye_jiucan" />
+        <activity android:name=".shouye.shouye_zhihuixiyi" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- <activity android:name=".activity.RegisterAndRecognizeActivity" android:launchMode="singleTop" /> -->
+        <activity android:name=".activity.RegisterAndRecognizeActivity" />
+    </application>
+
+</manifest>

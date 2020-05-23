@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yaokongqi_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/bg"
+        android:layout_height="276dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitStart"
+        android:layout_weight="1"
+        android:alpha="0.5"
+ />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="室内温度"
+                android:textSize="15dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="30dp" />
+            <TextView
+                android:id="@+id/textView_wendu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30℃"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="right">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="室内湿度"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView_shidu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="35dp"
+                android:text="10%"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical">
+        <android.support.design.widget.TabLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tabTextAppearance="@style/TabLayoutStyle"
+            android:id="@+id/mytab">
+        </android.support.design.widget.TabLayout>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/myViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
